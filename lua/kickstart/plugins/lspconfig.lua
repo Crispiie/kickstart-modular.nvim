@@ -200,6 +200,13 @@ return {
         'stylua',
         'clang-format',
         'codelldb',
+        'clangd',
+        'gdtoolkit',
+        'bash-language-server',
+        'lua-language-server',
+        'csharpier',
+        'omnisharp_mono',
+        'omnisharp',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
