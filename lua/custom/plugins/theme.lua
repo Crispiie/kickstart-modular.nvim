@@ -1,3 +1,3 @@
-local selected_theme = require 'custom.themes.catppuccin'
+local theme = require 'custom.themes.catppuccin'
 
-return selected_theme
+return theme
