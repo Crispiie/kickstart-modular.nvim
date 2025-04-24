@@ -197,16 +197,10 @@ return {
       -- for you, so that they are available from within Neovim.
       local ensure_installed = vim.tbl_keys(servers or {})
       vim.list_extend(ensure_installed, {
-        'stylua',
         'clang-format',
-        'codelldb',
-        'clangd',
         'gdtoolkit',
         'bash-language-server',
         'lua-language-server',
-        'csharpier',
-        'omnisharp_mono',
-        'omnisharp',
       })
       require('mason-tool-installer').setup { ensure_installed = ensure_installed }
 
